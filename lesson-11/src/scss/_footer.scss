@@ -1,0 +1,23 @@
+.blue-container {
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  padding-block: 3.1em /*50px*/;
+}
+
+.copyright_name {
+  font-weight: 500;
+  font-size: 1.3em /*21px*/;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.copyright_date {
+  font-weight: 400;
+  font-size: 0.8em /*13px*/;
+  line-height: 21px;
+}
