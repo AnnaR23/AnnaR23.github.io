@@ -1,17 +1,9 @@
-# Игнорируем папку настроек IDE (например, WebStorm)
+# Default ignore.idea/d files
+/shelf/
+/Test_homework/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
 .idea/
-
-# Игнорируем node_modules (для проектов на Node.js)
-node_modules/
-
-# Игнорируем файлы, сгенерированные системой
-.DS_Store      # Для macOS
-Thumbs.db      # Для Windows
-
-# Игнорируем временные файлы и логи
-*.log
-*.tmp
-
-# Игнорируем файлы, содержащие конфиденциальные данные
-*.env
-
