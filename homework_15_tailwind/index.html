@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:hover="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <title>Project using Tailwind</title>
@@ -9,22 +9,49 @@
 
 <body>
 <header class="bg-cyan-200 p-3 flex justify-between items-center">
-  <div class="text-4xl"><img src="images/logo-1-1.jpg" alt="Traveling"></div>
+  <div class="text-4xl">
+    <img src="images/logo-1-1.jpg" alt="Traveling">
+  </div>
 
   <nav class="hidden md:block">
     <ul class="flex justify-around gap-5 text-blue-900 text-xl">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Information</a></li>
+      <li class="relative group">
+        <a href="#">Information</a>
+        <ul class="absolute left-0 hidden mt-2 space-y-2 bg-white shadow-lg rounded-lg w-48 group-hover:block z-10">
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Carnival</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Safety and Security</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Customer Service</a></li>
+        </ul>
+      </li>
       <li><a href="#">Contacts</a></li>
-      <li><a href="#">News</a></li>
+      <li class="relative group">
+        <a href="#">News</a>
+        <ul class="absolute left-0 hidden mt-2 space-y-2 bg-white shadow-lg rounded-lg w-48 group-hover:block z-10">
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">NEWSROOM</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Latest news</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Images & Videos</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Us</a></li>
+          <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Ships</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 
-  <div class="md:block">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-         class="size-8">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
-    </svg>
+  <div class="md:block relative group">
+    <button type="button" aria-label="open menu">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+           class="size-8">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+      </svg>
+    </button>
+    <ul
+      class="absolute right-0 hidden mt-2 space-y-2 bg-white shadow-lg rounded-lg w-48 max-w-screen-md group-hover:block z-10">
+      <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a></li>
+      <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Information</a></li>
+      <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contacts</a></li>
+      <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">News</a></li>
+    </ul>
   </div>
 </header>
 
