@@ -560,10 +560,6 @@ video {
   src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
 }
 
-.visible {
-  visibility: visible;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -584,16 +580,8 @@ video {
   margin-bottom: 0px;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .grid {
@@ -696,10 +684,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .place-items-center {
@@ -1053,16 +1037,8 @@ video {
     display: inline-block;
   }
 
-  .md\:inline {
-    display: inline;
-  }
-
   .md\:flex {
     display: flex;
-  }
-
-  .md\:inline-flex {
-    display: inline-flex;
   }
 
   .md\:hidden {
@@ -1085,20 +1061,12 @@ video {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:justify-start {
-    justify-content: flex-start;
   }
 
   .md\:gap-4 {
@@ -1108,11 +1076,6 @@ video {
   .md\:bg-main_regular {
     --tw-bg-opacity: 1;
     background-color: rgb(50 50 100 / var(--tw-bg-opacity, 1));
-  }
-
-  .md\:px-\[60px\] {
-    padding-left: 60px;
-    padding-right: 60px;
   }
 
   .md\:ps-\[60px\] {
@@ -1143,10 +1106,6 @@ video {
 
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
