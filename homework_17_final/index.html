@@ -7,6 +7,7 @@
 </head>
 <body>
 
+
 <header class="lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:bg-main_regular lg:px-[60px]">
 <div class="lang-services
 flex justify-between p-3.5 md:justify-start gap-1.5
@@ -21,7 +22,7 @@ bg-main_soft md:bg-main_regular md:ps-[60px] lg:col-start-2 lg:justify-self-end 
         <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
       </svg>
     </div>
-    <span class="pt-1.5 address whitespace-nowrap hidden sm:inline text-grey lg:text-white">
+    <span class="address whitespace-nowrap pt-1.5 hidden sm:inline text-grey lg:text-white">
 Kyiv, Mechnikova str., 14/1
 </span>
     <div class="pt-0.5 hidden sm:flex items-center font-bold">
@@ -69,7 +70,7 @@ Kyiv, Mechnikova str., 14/1
 </header>
 
 
-<main class="w-full bg-cover bg-gradient_supersoft rounded-b-xl">
+<main class="w-full bg-cover bg-gradient_superSoft rounded-b-xl">
   <div class="text-3xl font-bold text-accent p-[30px] md:ps-[60px] pe-[30px] leading-9 bg-main_regular">What can we do
     better than others?
   </div>
@@ -275,12 +276,7 @@ Kyiv, Mechnikova str., 14/1
   </div>
 </main>
 
-  <!--<div class="drop-shadow-md">   w-full shadow-md shadow-lg,  svg - h-[20px] не работает
-    <svg class="w-full h-full" width="375" height="20" viewBox="0 0 375 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M40 10H335C335 15.5228 330.523 20 325 20H50C44.4771 20 40 15.5228 40 10Z" fill="#E7E7F2"/>
-      <path d="M20 0H355C355 5.52285 350.523 10 345 10H30C24.4771 10 20 5.52285 20 0Z" fill="#CACADB"/>
-    </svg>
-  </div> -->
+
 
 <div class="mx-[20px] my-0 bg-[#CACADB] h-2.5 rounded-b-2xl"></div>
 <div class="mx-[40px] my-0 bg-[#E7E7F2] h-2.5 rounded-b-2xl"></div>
@@ -288,14 +284,14 @@ Kyiv, Mechnikova str., 14/1
 <div class="white-block w-full h-[60px]"></div>
 
 
-
-<div class="clients  grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-3 h-full">
+<div class="clients grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-3 h-full">
 
   <div class="font-bold  uppercase text-center pb-[30px] md:col-span-3 lg:col-span-4 flex items-end justify-center">
-  They already trust us
+    They already trust us
   </div>
 
-  <div class="item-hillel bg-hillel place-items-center py-9 font-bold text-white flex items-center justify-center h-[120px]">
+  <div
+    class="item-hillel bg-hillel place-items-center py-9 font-bold text-white flex items-center justify-center h-[120px]">
     <img src="assets/images/Hillel-Logo-OneLine-White-Uk.png" alt="Hillel Logo">
   </div>
 
@@ -306,13 +302,13 @@ Kyiv, Mechnikova str., 14/1
   <div class="item_tapgerine place-items-center py-9 bg-tapgerine flex items-center justify-center h-[120px]">
     <img src="assets/images/tapgerine_logo.png" alt="tapgerine">
   </div>
-  
+
   <div class="item_3Dlook place-items-center py-9 bg-look flex items-center justify-center h-[120px]">
-<img src="assets/images/3Dlook.png" alt="3Dlook">
+    <img src="assets/images/3Dlook.png" alt="3Dlook">
   </div>
 
   <div class="item_orangear place-items-center py-9 bg-orangear flex items-center justify-center h-[120px]">
-<img src="assets/images/orangear_logo.png" alt="orangear">
+    <img src="assets/images/orangear_logo.png" alt="orangear">
   </div>
 
   <div class="item_adtelligent place-items-center py-9 bg-adtelligent flex items-center justify-center h-[120px]">
@@ -320,10 +316,11 @@ Kyiv, Mechnikova str., 14/1
   </div>
 
   <div class="item_clickKi place-items-center py-9 bg-clickKi  items-center justify-center h-[120px] hidden md:flex">
-<img src="assets/images/clickKi.png" alt="clickKi">
+    <img src="assets/images/clickKi.png" alt="clickKi">
   </div>
 
-  <div class="item_ecoLeasing place-items-center py-9 bg-ecoLeasing items-center justify-center h-[120px] hidden md:flex">
+  <div
+    class="item_ecoLeasing place-items-center py-9 bg-ecoLeasing items-center justify-center h-[120px] hidden md:flex">
     <img src="assets/images/ecoLeasing.png" alt="ecoLeasing">
   </div>
 
@@ -335,7 +332,8 @@ Kyiv, Mechnikova str., 14/1
     <img src="assets/images/cityPark.png" alt="cityPark">
   </div>
 
-  <div class="item_artPrintStudio place-items-center py-9 bg-artPrintStudio items-center justify-center h-[120px] hidden md:flex">
+  <div
+    class="item_artPrintStudio place-items-center py-9 bg-artPrintStudio items-center justify-center h-[120px] hidden md:flex">
     <img src="assets/images/artPrintStudio.png" alt="artPrintStudio">
   </div>
 
@@ -348,7 +346,67 @@ Kyiv, Mechnikova str., 14/1
 
 
 <footer>
-  
+
+
+  <div class="Footer bg-footerColor pt-[30px] flex flex-col justify-center items-center py-5">
+
+    <div class="flex flex-col px-2.5 items-center align-items-center md:inline-block">
+<span class="w-[201px] h-5 address pb-[10px] whitespace-nowrap text-main_regular font-normal size-4 leading-5">
+Kyiv, Mechnikova str., 14/1
+</span>
+
+      <div class="hidden items-center font-bold text-grey md:inline-block px-2.5">
+        <svg width="6" height="6" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+        </svg>
+      </div>
+
+      <span
+        class="w-[58px] h-[15px] pt-2.5 font-bold uppercase text-active_regular whitespace-nowrap size-3 leading-3.5">
+On map
+</span>
+    </div>
+
+
+
+  <div class="">
+
+    <div class="flex flex-col items-center px-2.5 pt-[21px] md:flex-row md:items-center">
+      <div class="facebook_blue_icon w-[38px] h-[38px]">
+        <img src="assets/images/Facebook_Blue_Icon.png" alt="facebook_blue_icon">
+      </div>
+
+      <div class="DOT hidden items-center px-2.5 font-bold text-grey md:inline-block">
+        <svg width="6" height="6" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+        </svg>
+      </div>
+
+      <div class="Phone font-bold whitespace-nowrap flex items-center pt-[10px] text-main_alt leading-5 text-right">
+        <a href="tel:0800211927">0800 211 927</a>
+      </div>
+
+      <div class="DOT hidden items-center px-2.5 font-bold text-grey md:inline-block">
+        <svg width="6" height="6" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+        </svg>
+      </div>
+
+      <div
+        class="Email_contact text-active_regular whitespace-nowrap flex items-center justify-center pt-[10px] size-4 font-bold">
+        contact@forstudy.space
+      </div>
+    </div>
+
+  </div>
+
+
+    <span class="text-grey pt-[30px] size-4 font-normal whitespace-nowrap flex items-center justify-center leading-5">
+© 2021 HLEGAL Law company, LLC
+</span>
+
+  </div>
+
 </footer>
 
 

@@ -21,9 +21,10 @@ module.exports = {
         infraTek: "#EAEAEA",
         cityPark: "#282240",
         artPrintStudio: "#1D4568",
+        footerColor: "#F5F5FA",
 },
       backgroundImage: {
-        'gradient_supersoft': "linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%)",
+        'gradient_superSoft': "linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%)",
       },
     },
   },
